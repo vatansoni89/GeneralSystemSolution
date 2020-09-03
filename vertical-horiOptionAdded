@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:views="clr-namespace:Component.Wellbeing.Data.Forms.Views;assembly=Component.Wellbeing.Data.Forms"
+             x:Class="Component.Wellbeing.Data.Forms.Views.FitbitPackagePage">
+    <StackLayout>
+        <Frame BackgroundColor="Crimson" BorderColor="DarkSlateGray" Padding="0">
+            <Grid Padding="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2.5*"/>
+                    <ColumnDefinition Width="2.5*"/>
+                    <ColumnDefinition Width="2.5*"/>
+                    <ColumnDefinition Width="2.5*"/>
+                    <ColumnDefinition Width="2.5*"/>
+                    <ColumnDefinition Width="2.5*"/>
+                    <ColumnDefinition Width="2.5*"/>
+                    <ColumnDefinition Width="2.5*"/>
+                    <ColumnDefinition Width="2.5*"/>
+                    <ColumnDefinition Width="2.5*"/>
+                    <ColumnDefinition Width="2.5*"/>
+                    <ColumnDefinition Width="2.5*"/>
+                    <ColumnDefinition Width="2.5*"/>
+                    <ColumnDefinition Width="2.5*"/>
+                    <ColumnDefinition Width="2.5*"/>
+                    <ColumnDefinition Width="2.5*"/>
+                    <ColumnDefinition Width="2.5*"/>
+                    <ColumnDefinition Width="2.5*"/>
+                    <ColumnDefinition Width="2.5*"/>
+                    <ColumnDefinition Width="2.5*"/>
+                    <ColumnDefinition Width="2.5*"/>
+                    <ColumnDefinition Width="2.5*"/>
+                    <ColumnDefinition Width="2.5*"/>
+                </Grid.ColumnDefinitions>
+
+                <Label Margin="0" Text="PackageNumber" VerticalOptions="CenterAndExpand" Grid.Column="0" HorizontalOptions="CenterAndExpand" />
+                <Label Margin="0" Text="Levels" VerticalOptions="CenterAndExpand" Grid.Column="1" HorizontalOptions="CenterAndExpand" />
+                <Label Margin="0" Text="Hp" VerticalOptions="CenterAndExpand" Grid.Column="2" HorizontalOptions="CenterAndExpand" />
+                <Label Margin="0" Text="MobilityClass" VerticalOptions="CenterAndExpand" Grid.Column="3" HorizontalOptions="CenterAndExpand" />
+                <Label Margin="0" Text="Classes" VerticalOptions="CenterAndExpand" Grid.Column="4" HorizontalOptions="CenterAndExpand" />
+                <Label Margin="0" Text="WindActivity" VerticalOptions="CenterAndExpand" Grid.Column="5" HorizontalOptions="CenterAndExpand" />
+                <Label Margin="0" Text="OperationTimeCounter" VerticalOptions="CenterAndExpand" Grid.Column="6" HorizontalOptions="CenterAndExpand" />
+                <Label Margin="0" Text="FetchTime" VerticalOptions="CenterAndExpand" Grid.Column="7" HorizontalOptions="CenterAndExpand" />
+                <Label Margin="0" Text="EstimatedTimestampMax" VerticalOptions="CenterAndExpand" Grid.Column="8" HorizontalOptions="CenterAndExpand" />
+                <Label Margin="0" Text="EstimatedTimestampMin" VerticalOptions="CenterAndExpand" Grid.Column="9" HorizontalOptions="CenterAndExpand" />
+                <Label Margin="0" Text="LevelMax" VerticalOptions="CenterAndExpand" Grid.Column="10" HorizontalOptions="CenterAndExpand" />
+                <Label Margin="0" Text="LevelMean" VerticalOptions="CenterAndExpand" Grid.Column="11" HorizontalOptions="CenterAndExpand" />
+                <Label Margin="0" Text="OwnVoiceRaw" VerticalOptions="CenterAndExpand" Grid.Column="12" HorizontalOptions="CenterAndExpand" />
+                <Label Margin="0" Text="Class6Raw" VerticalOptions="CenterAndExpand" Grid.Column="13" HorizontalOptions="CenterAndExpand" />
+                <Label Margin="0" Text="Class5Raw" VerticalOptions="CenterAndExpand" Grid.Column="14" HorizontalOptions="CenterAndExpand" />
+                <Label Margin="0" Text="Class4Raw" VerticalOptions="CenterAndExpand" Grid.Column="15" HorizontalOptions="CenterAndExpand" />
+                <Label Margin="0" Text="Class3Raw" VerticalOptions="CenterAndExpand" Grid.Column="16" HorizontalOptions="CenterAndExpand" />
+                <Label Margin="0" Text="Class2Raw" VerticalOptions="CenterAndExpand" Grid.Column="17" HorizontalOptions="CenterAndExpand" />
+                <Label Margin="0" Text="Class1Raw" VerticalOptions="CenterAndExpand" Grid.Column="18" HorizontalOptions="CenterAndExpand" />
+                <Label Margin="0" Text="Order" VerticalOptions="CenterAndExpand" Grid.Column="19" HorizontalOptions="CenterAndExpand" />
+                <Label Margin="0" Text="Guid" VerticalOptions="CenterAndExpand" Grid.Column="20" HorizontalOptions="CenterAndExpand" />
+                <Label Margin="0" Text="LatestFitMinute" VerticalOptions="CenterAndExpand" Grid.Column="21" HorizontalOptions="CenterAndExpand" />
+                <Label Margin="0" Text="LatestFitMinuteUpdate" VerticalOptions="CenterAndExpand" Grid.Column="22" HorizontalOptions="CenterAndExpand" />
+
+                <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1.5" Grid.Column="0" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand"/>
+                <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1.5" Grid.Column="1" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand"/>
+                <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1.5" Grid.Column="2" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand"/>
+                <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1.5" Grid.Column="3" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand"/>
+                <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1.5" Grid.Column="4" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand"/>
+                <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1.5" Grid.Column="5" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand"/>
+                <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1.5" Grid.Column="6" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand"/>
+                <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1.5" Grid.Column="7" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand"/>
+                <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1.5" Grid.Column="8" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand"/>
+                <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1.5" Grid.Column="9" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand"/>
+                <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1.5" Grid.Column="10" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand"/>
+                <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1.5" Grid.Column="11" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand"/>
+                <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1.5" Grid.Column="12" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand"/>
+                <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1.5" Grid.Column="13" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand"/>
+                <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1.5" Grid.Column="14" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand"/>
+                <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1.5" Grid.Column="15" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand"/>
+                <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1.5" Grid.Column="16" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand"/>
+                <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1.5" Grid.Column="17" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand"/>
+                <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1.5" Grid.Column="18" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand"/>
+                <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1.5" Grid.Column="19" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand"/>
+                <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1.5" Grid.Column="20" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand"/>
+                <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1.5" Grid.Column="21" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand"/>
+                <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1.5" Grid.Column="22" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand"/>
+            </Grid>
+        </Frame>
+        <ListView ItemsSource="{Binding FitbitPackages}" SeparatorVisibility="None" SelectionMode="None" HasUnevenRows="False">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Frame Padding="0" BorderColor="DarkSlateGray">
+                            <Grid Padding="0" RowSpacing="0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="2.5*"/>
+                                    <ColumnDefinition Width="2.5*"/>
+                                    <ColumnDefinition Width="2.5*"/>
+                                    <ColumnDefinition Width="2.5*"/>
+                                    <ColumnDefinition Width="2.5*"/>
+                                    <ColumnDefinition Width="2.5*"/>
+                                    <ColumnDefinition Width="2.5*"/>
+                                    <ColumnDefinition Width="2.5*"/>
+                                    <ColumnDefinition Width="2.5*"/>
+                                    <ColumnDefinition Width="2.5*"/>
+                                    <ColumnDefinition Width="2.5*"/>
+                                    <ColumnDefinition Width="2.5*"/>
+                                    <ColumnDefinition Width="2.5*"/>
+                                    <ColumnDefinition Width="2.5*"/>
+                                    <ColumnDefinition Width="2.5*"/>
+                                    <ColumnDefinition Width="2.5*"/>
+                                    <ColumnDefinition Width="2.5*"/>
+                                    <ColumnDefinition Width="2.5*"/>
+                                    <ColumnDefinition Width="2.5*"/>
+                                    <ColumnDefinition Width="2.5*"/>
+                                    <ColumnDefinition Width="2.5*"/>
+                                    <ColumnDefinition Width="2.5*"/>
+                                    <ColumnDefinition Width="2.5*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <Label Margin="0" Text="{Binding PackageNumber}" VerticalOptions="CenterAndExpand" Grid.Column="0" HorizontalOptions="CenterAndExpand" />
+                                <Label Margin="0" Text="{Binding Levels}" VerticalOptions="CenterAndExpand" Grid.Column="1" HorizontalOptions="CenterAndExpand" />
+                                <Label Margin="0" Text="{Binding Hp}" VerticalOptions="CenterAndExpand" Grid.Column="2" HorizontalOptions="CenterAndExpand" />
+                                <Label Margin="0" Text="{Binding MobilityClass}" VerticalOptions="CenterAndExpand" Grid.Column="3" HorizontalOptions="CenterAndExpand" />
+                                <Label Margin="0" Text="{Binding Classes}" VerticalOptions="CenterAndExpand" Grid.Column="4" HorizontalOptions="CenterAndExpand" />
+                                <Label Margin="0" Text="{Binding WindActivity}" VerticalOptions="CenterAndExpand" Grid.Column="5" HorizontalOptions="CenterAndExpand" />
+                                <Label Margin="0" Text="{Binding OperationTimeCounter}" VerticalOptions="CenterAndExpand" Grid.Column="6" HorizontalOptions="CenterAndExpand" />
+                                <Label Margin="0" Text="{Binding FetchTime}" VerticalOptions="CenterAndExpand" Grid.Column="7" HorizontalOptions="CenterAndExpand" />
+                                <Label Margin="0" Text="{Binding EstimatedTimestampMax}" VerticalOptions="CenterAndExpand" Grid.Column="8" HorizontalOptions="CenterAndExpand" />
+                                <Label Margin="0" Text="{Binding EstimatedTimestampMin}" VerticalOptions="CenterAndExpand" Grid.Column="9" HorizontalOptions="CenterAndExpand" />
+                                <Label Margin="0" Text="{Binding LevelMax}" VerticalOptions="CenterAndExpand" Grid.Column="10" HorizontalOptions="CenterAndExpand" />
+                                <Label Margin="0" Text="{Binding LevelMean}" VerticalOptions="CenterAndExpand" Grid.Column="11" HorizontalOptions="CenterAndExpand" />
+                                <Label Margin="0" Text="{Binding OwnVoiceRaw}" VerticalOptions="CenterAndExpand" Grid.Column="12" HorizontalOptions="CenterAndExpand" />
+                                <Label Margin="0" Text="{Binding Class6Raw}" VerticalOptions="CenterAndExpand" Grid.Column="13" HorizontalOptions="CenterAndExpand" />
+                                <Label Margin="0" Text="{Binding Class5Raw}" VerticalOptions="CenterAndExpand" Grid.Column="14" HorizontalOptions="CenterAndExpand" />
+                                <Label Margin="0" Text="{Binding Class4Raw}" VerticalOptions="CenterAndExpand" Grid.Column="15" HorizontalOptions="CenterAndExpand" />
+                                <Label Margin="0" Text="{Binding Class3Raw}" VerticalOptions="CenterAndExpand" Grid.Column="16" HorizontalOptions="CenterAndExpand" />
+                                <Label Margin="0" Text="{Binding Class2Raw}" VerticalOptions="CenterAndExpand" Grid.Column="17" HorizontalOptions="CenterAndExpand" />
+                                <Label Margin="0" Text="{Binding Class1Raw}" VerticalOptions="CenterAndExpand" Grid.Column="18" HorizontalOptions="CenterAndExpand" />
+                                <Label Margin="0" Text="{Binding Order}" VerticalOptions="CenterAndExpand" Grid.Column="19" HorizontalOptions="CenterAndExpand" />
+                                <Label Margin="0" Text="{Binding Guid}" VerticalOptions="CenterAndExpand" Grid.Column="20" HorizontalOptions="CenterAndExpand" />
+                                <Label Margin="0" Text="{Binding LatestFitMinute}" VerticalOptions="CenterAndExpand" Grid.Column="21" HorizontalOptions="CenterAndExpand" />
+                                <Label Margin="0" Text="{Binding LatestFitMinuteUpdate}" VerticalOptions="CenterAndExpand" Grid.Column="22" HorizontalOptions="CenterAndExpand" />
+
+                                <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1.5" Grid.Column="0" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand"/>
+                                <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1.5" Grid.Column="1" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand"/>
+                                <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1.5" Grid.Column="2" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand"/>
+                                <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1.5" Grid.Column="3" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand"/>
+                                <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1.5" Grid.Column="4" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand"/>
+                                <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1.5" Grid.Column="5" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand"/>
+                                <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1.5" Grid.Column="6" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand"/>
+                                <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1.5" Grid.Column="7" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand"/>
+                                <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1.5" Grid.Column="8" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand"/>
+                                <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1.5" Grid.Column="9" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand"/>
+                                <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1.5" Grid.Column="10" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand"/>
+                                <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1.5" Grid.Column="11" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand"/>
+                                <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1.5" Grid.Column="12" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand"/>
+                                <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1.5" Grid.Column="13" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand"/>
+                                <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1.5" Grid.Column="14" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand"/>
+                                <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1.5" Grid.Column="15" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand"/>
+                                <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1.5" Grid.Column="16" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand"/>
+                                <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1.5" Grid.Column="17" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand"/>
+                                <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1.5" Grid.Column="18" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand"/>
+                                <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1.5" Grid.Column="19" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand"/>
+                                <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1.5" Grid.Column="20" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand"/>
+                                <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1.5" Grid.Column="21" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand"/>
+                                <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1.5" Grid.Column="22" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand"/>
+                            </Grid>
+                        </Frame>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>
