@@ -1,0 +1,14 @@
+System.InvalidOperationException
+  Message=Insufficient entropy provided by entropy source
+
+
+System.ArgumentException
+  Message=Requested security strength is not supported by the derivation function
+
+
+BleWrapper.Core.Contracts.OperationExceededTimeoutException: 'DisconnectAsync exceeded timeout.'
+BleWrapper.Core.Contracts.OperationExceededTimeoutException
+  Message=DisconnectAsync exceeded timeout.
+
+
+BleWrapper.Core.Contracts.AnotherThreadIsReconnectingException: 'Another Thread is reconnecting.'
