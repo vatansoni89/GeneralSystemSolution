@@ -12,3 +12,10 @@ BleWrapper.Core.Contracts.OperationExceededTimeoutException
 
 
 BleWrapper.Core.Contracts.AnotherThreadIsReconnectingException: 'Another Thread is reconnecting.'
+
+
+FapiAccessLayer.FormulaException: 'value 26 for fix<5,0> is greater then maximum 15
+
+FapiAccessLayer.ResultException: 'Value 26 could not be converted to raw representation: value 26 for fix<5,0> is greater then maximum 15'
+
+FapiAccessLayer.ResultException: 'Value 26 could not be converted to raw representation: value 26 for fix<5,0> is greater then maximum 15'
